@@ -73,3 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
  Set-ExecutionPolicy RemoteSigned  -- политика безопасности PowerShell
  npx create-react-app green_north  создать новый прроект 
+
+
+### ссылка на макет
+ https://www.figma.com/design/i7Jy5K0NFD26H52nbyBjyt/11?node-id=34-207&t=zMmweygkOHDCCRJ6-0
