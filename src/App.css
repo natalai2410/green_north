@@ -40,7 +40,7 @@
 
 .page {
   /* background-color: rgb(225 243 229); */
-  background-color: rgba(178, 223, 219, 1);
+  /* background-color: rgba(178, 223, 219, 1); */
   
 
 }
@@ -79,6 +79,13 @@
 @font-face {
   font-family: "Montserrat"; 
   src: url("./fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "Cera Pro"; 
+  src: url("./fonts/CeraPro/CeraPro-Regular.ttf"); 
   font-style: normal; 
   font-weight: normal; 
 } 

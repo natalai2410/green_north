@@ -1,26 +1,18 @@
-.about__title {
-    margin-top: 70px;
-    /* margin-left: 70px; */
-    font-family: Montserrat;
-    font-size: 64px;
-    font-weight: 400;
-    line-height: 57.6px;
-    letter-spacing: 0.07038461416959763px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    /* color: rgba(29, 31, 29, 1); */
-    color: rgba(49, 76, 81, 1); ;
-    margin-bottom: 0px;
+.about {
+    margin-top: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background: rgba(178, 223, 219, 0.1);
+    border-radius: 20px;
 }
 
 .about__desctiprion {
     display: flex;
     justify-content: space-between;
-    margin-top: 135px;
     height: 350px;
     gap: 35px;
-
 }
 
 .about__image {
@@ -30,45 +22,44 @@
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    background-image: url("../images/1634264864_56-pro-dachnikov-com-p-foto-teplitsa-v-ogorode-foto-63.jpg");
+    background-image: url("../images/122.png");
     background-repeat: no-repeat;
-}
-
-.about__image img {
-    height: 100%;
-    width: auto;
+    background-size: scale;
 }
 
 .about__text {
-    width: 50%;
-
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 21.6px;
-    letter-spacing: 0.10000000149011612px;
+    width: 50%; 
+    color: rgba(29, 31, 29, 1);  
+    margin: 0;
+    font-family: Cera Pro;
     text-align: left;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none; 
-    color: rgba(29, 31, 29, 1);  
-    margin: auto 0;
+    text-decoration-skip-ink: none;
 }
 
-.about__text div:last-child {
-    margin-top: 30px;
+.about__text1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
 }
 
-/* .about__text div:first-child {
-    left: 0;
-} */
+.about__text2{
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+}
 
+.about__text2_green {
+    color: rgb(80, 146, 158);
+}
 
-.about {
-    /* height: 700px; */
-    /* border: 1px solid red; */
-    margin-bottom: 170px;
-
-    height: 700px;
-    margin-top: 170px;
+.about__text3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
 

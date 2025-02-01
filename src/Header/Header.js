@@ -22,21 +22,21 @@ function Header() {
 
               <li className="navigation__item">
                 <div to="/" className="navigation__link">
-                  Пикник
-                </div>
-              </li>
-
-              <li className="navigation__item">
-                <div to="/" className="navigation__link">
                   Услуги
                 </div>
               </li>
 
               <li className="navigation__item">
+                <a to="/" className="navigation__link" href="https://forms.gle/mp2vW7qYRGgH3ZXt7">
+                  Забронировать
+                </a>
+              </li>
+
+              {/* <li className="navigation__item">
                 <div to="/" className="navigation__link">
                   Территория
                 </div>
-              </li>
+              </li> */}
 
               <li className="navigation__item">
                 <div to="/" className="navigation__link">
